@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/milligram-1.4.1/dist/milligram.css">
+    <link rel="shortcut icon" href="img/Icone Oficial Deal.ico" type="image/x-icon">
+    <title>Confirmar Acordo</title>
+</head>
+<body>
+    <nav class="row">
+        <a class="column" href="index.html"><h2>Cadastro</h2></a>
+        <a class="column" href="dadosTécnicos.html"><h2>Dados Técnicos</h2></a>
+        <a class="column" href="Menu.html"><h2>Menu</h2></a>
+        <a class="column" href="pesquisarServiço.html"><h2>Pesquisar Serviço</h2></a>
+        <a class="column" href="confirmarAcordo.html"><h1>Acordos Pendentes</h1></a>
+    </nav>
+    <section class="container">
+        <h3>Alguém está solicitando o seu Serviço!</h3>
+        <img src="img/Pessoa Aleatória.jpg" id="imgCliente" alt="Foto do cliente que deseja o serviço">
+        <h4>Dados Pessoais:</h4>
+        <div class="row">
+            <div class="column column-50"> <b>Nome: </b>Carlos Alberto</div>
+            <div class="column column-50"><b>Idade: </b>48</div>
+        </div>
+        <h4>Dados Serviço:</h4>
+        <table>
+            <thead>
+                <tr>
+                    <th>Categoria</th>
+                    <th>Endereço</th>
+                    <th>Serviço</th>
+                    <th>Horário</th> 
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Elétrica</td>
+                    <td>Avenida Vasco da Gama, Rua Santa Rosa</td>
+                    <td>Meu chuveiro toda vez que eu deixo ele no quente por um tempo ele funciona, entretanto, depois o disjuntor desarmar e eu tenho que religar</td>
+                    <td>A partir das 14 Horas</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="midia">
+            <h4>Multimidia:</h4>
+            <img src="img/disjuntor-geral-desarmando-sozinho.jpg" id="disjuntores" alt="Foto de um disjuntor geral com apenas um desarmado">
+            <img src="img/chuveiro.jpg" id="chuveiro" alt="Foto do chuveiro">
+        </div>
+            <div class="row">
+                <a class="button button-outline column column-20"  id="NãoAcordo" href="acordoCancelado.html">Cancelar Acordo</a> 
+                <a class="button column column-20"  id="Acordo" href="acordoFeito.html">Realizar Acordo</a> 
+            </div>
+        </div>
+    </section>
+</body>
+</html>

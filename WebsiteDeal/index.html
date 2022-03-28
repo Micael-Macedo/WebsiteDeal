@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/milligram-1.4.1/dist/milligram.css">
+    <link rel="shortcut icon" href="img/Icone Oficial Deal.ico" type="image/x-icon">
+    <title>Cadastro Prestador</title>
+</head>
+<body>
+    <nav class="row">
+        <a class="column" href="index.html"><h1>Cadastro</h1></a>
+        <a class="column" href="dadosTécnicos.html"><h2>Dados Técnicos</h2></a>
+        <a class="column" href="Menu.html"><h2>Menu</h2></a>
+        <a class="column" href="pesquisarServiço.html"><h2>Buscar Serviço</h2></a>
+        <a class="column" href="confirmarAcordo.html"><h2>Acordos Pendentes</h2></a>
+    </nav>
+    <section class="container">
+        <h3>Cadastro Prestador</h3>
+        <form>
+            <fieldset>
+                <label for="NomePrest">Nome Completo</label>
+                <input type="text" id="NomePrest" placeholder="Nome Completo" required>
+                <label for="Email">E-mail</label>
+                <input type="email" id="Email" placeholder="E-mail" required>
+                <label for="Senha">Senha</label>
+                <input type="password" id="Senha" placeholder="Senha" required>
+                <label for="Senha">Confirmar Senha</label>
+                <input type="password" id="ConfSenha" placeholder="Senha" required>
+                <label for="DataNascimento">Data de nascimento</label>
+                <input type="date" id="DataNascimento" required>
+                <label for="CPF">CPF</label>
+                <input type="number" id="CPF" placeholder="CPF" required>
+                <label for="Telefone">Telefone</label>
+                <input type="number" id="Telefone" placeholder="(xx) xxxxxxxxx" required>
+                <label for="Competência">Escolha suas Habilidades</label>
+                <div>
+                    
+                    <label class="label-inline" for="Eletrica">Elétrica</label>
+                    <input type="checkbox" id="Eletrica" name="Elétrica" value="Eletrica">
+                    <label class="label-inline" for="Mecânica">Mecânica</label>
+                    <input type="checkbox" id="Mecânica" name="Mecânica" value="Mecânica">
+                    <label class="label-inline" for="ManutençãoDeComputadores">Manutenção de Computadores</label>
+                    <input type="checkbox" id="ManutençãoDeComputadores" name="ManutençãoDeComputadores" value="ManutençãoDeComputadores">
+                    <label class="label-inline" for="Hidraulica">Hidraulica</label>
+                    <input type="checkbox" id="Hidraulica" name="Hidraulica" value="Hidraulica">
+                    <label class="label-inline" for="Carreto">Carreto</label>
+                    <input type="checkbox" id="Carreto" name="Carreto" value="Carreto">
+                    <label class="label-inline" for="Marcenaria">Marcenaria</label>
+                    <input type="checkbox" id="Marcenaria" name="Marcenaria" value="Marcenaria">
+                </div>
+                <label for="CEP">CEP</label>
+                <input type="number" id="CEP" placeholder="xxxxx-xxx" required>
+                <label for="Endereço">Endereço</label>
+                <input type="text" id="Endereço" placeholder="Rua, Bairro, Numero" required>
+                <label for="Foto">Envie sua foto</label>
+                <input type="file" id="FotoPrestador" value="FotoPrestador" required>
+                <label for="ComprovDeResi">Comprovante de Residência</label>
+                <input type="file" id="ComprovDeResi" value="ComprovanteDeResidência" required><br>
+                <a class="button" href="dadosTécnicos.html">Cadastrar</a>
+            </fieldset>
+        </form>
+    </section>
+</body>
+</html>
